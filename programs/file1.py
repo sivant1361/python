@@ -1,0 +1,12 @@
+a=input("Enter file name to read:")
+b=input("Enter file name to write:")
+f1=open(a,mode='r')
+f2=open(b,mode='w')
+str=f1.read()
+f2.write(str)
+f1.close()
+f2.close()
+with open("two.txt",mode='r') as f:
+    fstr=f.read()
+    print("The contents in the file two is:\n ")
+    print(fstr)

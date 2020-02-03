@@ -1,0 +1,5 @@
+name=input("Enter your name:")
+print("Name:",name)
+s=name
+n=13
+print("S=",type(s),"\nN=",type(n))

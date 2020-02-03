@@ -1,0 +1,4 @@
+a=input("Enter a string:")
+print(a)
+#[start: stop :step]
+print(a[8:0:-1])

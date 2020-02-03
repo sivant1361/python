@@ -1,0 +1,11 @@
+import re
+flag=0
+ch=input("Enter a string:")
+l=ch.split()
+for i in range(len(l)):
+    if(re.findall(r'[0-9]',l[i]) and l[i+1].isalpha()):
+        flag=1
+if(flag==1):
+    print("String is in correct format:)")
+else:
+    print("String is in incorrect format:(")

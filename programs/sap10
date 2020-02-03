@@ -1,0 +1,10 @@
+a=[]
+n=int(input("Enter number of elements:"))
+for i in range(n):
+   a.append(int(input(f"Element {i+1}:")))
+print(a)
+for i in a:
+   if(i%2==0):
+      print(f"Even={i}")
+   else:
+      print(f"Odd={i}")

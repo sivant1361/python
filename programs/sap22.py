@@ -1,0 +1,15 @@
+l=[]
+b=(1,2,3,4,5)
+n=int(input("Enter number of elements:"))
+print("Enter elements for list:")
+for i in range(n):
+    l.append(input(f"number {i+1}:"))
+print("Enter elements for tuple:")
+print("List operation:")
+print("Max:",max(l))
+print("Min:",min(l))
+print("sorted:",sorted(l))
+print("Tuple operation:")
+print("Max:",max(b))
+print("Min:",min(b))
+print("sorted:",sorted(b))

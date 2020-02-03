@@ -1,0 +1,6 @@
+age=int(input("Enter your age:"))
+n=input("Enter your nationality:")
+if (age>=18 and (n=="Indian" or n=="indian")):
+    print("You are eligible to vote!!!")
+else:
+    print("You are not eligible to vote!!!")

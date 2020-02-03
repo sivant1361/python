@@ -1,0 +1,4 @@
+print("Order of A=",ord('A'))
+str=input("Enter the string:")
+print("Max=",max(str))
+print("Min=",min(str))
